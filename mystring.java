@@ -9,7 +9,7 @@ Text = t;
 }
 public String invert( ){
 int i , n = Text.length();
-char [] Temp = new char [n+1];
+char [] Temp = new char [n+1+1];
 Temp = Text.toCharArray();
 Text= "";
 for ( i=0; i<n; i++) {
